@@ -20,6 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+		'pub_twist = homework.pub_twist:main',
+	        'sub_twist = homework.sub_twist:main',
         ],
     },
 )
